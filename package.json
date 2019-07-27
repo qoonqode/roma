@@ -1,0 +1,40 @@
+{
+  "name": "roma",
+  "version": "1.0.0",
+  "description": "Pomodoro Technique Web App (Client and Server)",
+  "main": "index.js",
+  "repository": "https://github.com/qoonqode/roma",
+  "author": "Charles Baker <zach@bearmail.net>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-boost": "^0.4.3",
+    "apollo-client": "^2.6.3",
+    "apollo-server-express": "^2.7.2",
+    "express": "^4.17.1",
+    "graphql": "^14.4.2",
+    "graphql-tag": "^2.10.1",
+    "mobx": "^5.13.0",
+    "mobx-react": "^6.1.1",
+    "mongoose": "^5.6.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "react": "^16.8.6",
+    "react-apollo": "^2.5.8",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "semantic-ui-react": "^0.87.3",
+    "validator": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.6.1",
+    "babel-plugin-import-graphql": "^2.7.0",
+    "nodemon": "^1.19.1",
+    "parcel-bundler": "^1.12.3",
+    "postcss-modules": "^1.4.1"
+  }
+}

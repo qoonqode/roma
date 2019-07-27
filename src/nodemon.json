@@ -1,0 +1,5 @@
+{
+  "events": {
+    "restart": "rm -rf ./node_modules/.cache"
+  }
+}
